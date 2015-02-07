@@ -12,37 +12,27 @@
         android:layout_centerVertical="true"
         android:id="@+id/relativeLayout">
 
-        <TextView
-            android:id="@+id/advanced_search"
-            android:text="Advanced Search"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"/>
-
-        <TextView
+        <Button
             android:id="@+id/tip"
-            android:text="Lie the app?  Tip your bartender."
+            android:text="Like the app?  Tip your bartender."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_below="@id/advanced_search"/>
+            android:textSize="20sp"/>
 
-        <TextView
+        <Button
             android:id="@+id/faq"
             android:text="Frequently Asked Questions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_below="@id/tip"/>
 
-        <TextView
+        <Button
             android:id="@+id/app_settings"
             android:text="Settings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/faq"/>
     </RelativeLayout>
