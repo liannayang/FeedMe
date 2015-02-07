@@ -12,7 +12,7 @@
 
         <ImageView
             android:id="@+id/top_title"
-            android:src="@drawable/whatson"
+            android:src="@drawable/feedme"
             android:contentDescription=""
             android:layout_height="50dp"
             android:layout_width="200dp"
@@ -21,7 +21,7 @@
 
         <ImageView
             android:id="@+id/bottom_title"
-            android:src="@drawable/themenu"
+            android:src="@drawable/montreal"
             android:contentDescription=""
             android:layout_height="50dp"
             android:layout_width="200dp"
