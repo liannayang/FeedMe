@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="flyingsquirrels.feedmetake2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".Categories"
+            android:label="@string/title_activity_categories" >
+        </activity>
+        <activity
+            android:name=".resto"
+            android:label="@string/title_activity_resto" >
+        </activity>
+        <activity
+            android:name=".AdvancedSearch"
+            android:label="@string/title_activity_advanced_search" >
+        </activity>
+        <activity
+            android:name=".RestoPage"
+            android:label="@string/title_activity_resto_page" >
+        </activity>
+        <activity
+            android:name=".Match"
+            android:label="@string/title_activity_match" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="flyingsquirrels.feedmetake2.Categories">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/relativeLayout">
+
+        <Button
+            android:id="@+id/category1"
+            android:text="Happy Hour!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/category2"
+            android:text="Heels and Suits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_below="@id/category1"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/category3"
+            android:text="Date Night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/category2"
+            />
+        <Button
+            android:id="@+id/feelinglucky"
+            android:text="I'M FEELING LUCKY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/category3"/>
+        <Button
+            android:id="@+id/advsearch"
+            android:text="Advanced Search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/feelinglucky"/>
+    </RelativeLayout>
+
+</RelativeLayout>
